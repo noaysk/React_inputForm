@@ -10,9 +10,9 @@ class Footer extends React.Component {
             <p>Learn to code, learn to creative.</p>
           </div>
           <ul className='footer-list'>
-            <li>会社概要</li>
-            <li>採用</li>
-            <li>お問い合わせ</li>
+            <li>company</li>
+            <li>career</li>
+            <li>contact</li>
           </ul>
         </div>
       </div>

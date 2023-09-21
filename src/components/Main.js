@@ -8,22 +8,22 @@ class Main extends React.Component {
       {
         name: 'HTML & CSS',
         image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg',
-        introduction: 'WEBページはHTML、CSSという言語によってその見た目が作られています。 実際にWEBページを作りながら学んでみましょう！',
+        introduction: 'The appearance of a web page is created by the languages HTML and CSS. Lets learn while actually creating a web page!',
       },
       {
         name: 'Sass',
         image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/sass.svg',
-        introduction: 'SassはCSSをより便利に効率的にするための言語です。',
+        introduction: 'Sass is a language that makes CSS more useful and efficient.',
       },
       {
         name: 'JavaScript',
         image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/es6.svg',
-        introduction: 'JavaScriptはフロントエンドだけでなく、サーバーサイドまで広い可能性を持つプログラミング言語です。',
+        introduction: 'JavaScript is a programming language with a wide range of possibilities, not only for the front end, but also for the server side.',
       },
       {
         name: 'React',
         image: 'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/react.svg',
-        introduction: 'ReactはHTMLのように、サイトの見た目をつくることができるJavaScriptのライブラリです。',
+        introduction: 'React is a JavaScript library that can you to create of your site like HTML.',
       },
     ];
 
@@ -32,10 +32,10 @@ class Main extends React.Component {
         <div className='main'>
           <div className='copy-container'>
             <h1>Hello, World.</h1>
-            <h2>プログラミングの世界へようこそ！</h2>
+            <h2>Welcome to Programming World</h2>
           </div>
           <div className='lesson-container'>
-            <h3>学べるレッスン</h3>
+            <h3>Your Class</h3>
             { lessonList.map((lessonItem) => {
               return (
                 <Lesson
@@ -47,7 +47,7 @@ class Main extends React.Component {
             }) }
           </div>
           <div className='contact-container'>
-            <h3>お問い合わせ</h3>
+            <h3>Contact</h3>
             <ContactForm />
           </div>
         </div>

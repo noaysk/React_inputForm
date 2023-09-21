@@ -29,7 +29,7 @@ class Lesson extends React.Component {
               className='modal-close-btn'
               onClick={() => this.handleClickClose()}
             >
-              とじる
+              Close
             </button>
           </div>
         </div>
