@@ -8,6 +8,11 @@ class ContactForm extends React.Component {
       isSubmitted: false,
     };
   }
+  handleSubmit(){
+    this.setState
+     ({isSubmitted: true});
+    
+ }
 
   render() {
     let contactForm;
@@ -15,7 +20,7 @@ class ContactForm extends React.Component {
       contactForm = <div className="contact-submit-message">Submission Complete</div>;
     } else {
       contactForm = (
-        <form>
+        <form onSubmit={()=>{this.handleSubmit()}}>
         <p>Mail Address（required）</p>
         <input />
         <p>Inquiry Form（required）</p>
