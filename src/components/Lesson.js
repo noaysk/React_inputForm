@@ -43,7 +43,7 @@ class Lesson extends React.Component {
           onClick={() => {this.handleClickLesson()}}
         >
           <p>{this.props.name}</p>
-          <img src={this.props.image} />
+          <img src={this.props.image} alt="explanation"/>
         </div>
         {modal}
       </div>
